@@ -1,16 +1,11 @@
-<link rel="stylesheet" href ="/content/loginStyle.css">
+<link rel="stylesheet" href ="/content/contactListStyle.css">
 </head>
 <body>
 <div class="container">
    <br><br>
     <article>
         <article> 
-       <table class="contactInfo">
-           <tr class="contactMe">    
-               <td class="callIcon"><ion-icon name="call"></ion-icon></td>
-               <td class="callData">Login!</td>              
-           </tr>
-        </table>
+      
       <br>
 
 
@@ -49,8 +44,8 @@
                             <td>
                                 <%= contact[count].emailAddress %>
                             </td>
-                             <td class="text-center"><a href="/contact/edit/<%= contact[count]._id %>" class="btn btn-primary btn-sm edit"><i class="fas fa-edit fa-sm"></i> Edit</a></td>
-                <td class="text-center"><a href="/contact/delete/<%= contact[count]._id %>" class="btn btn-danger btn-sm delete"><i class="fas fa-trash-alt fa-sm"></i> Delete</a></td>
+                             <td class="text-center"><a href="/contact/edit/<%= contact[count]._id %>" class="btn btn-primary btn-sm edit"><ion-icon name="create"></ion-icon> Edit</a></td>
+                <td class="text-center"><a href="/contact/delete/<%= contact[count]._id %>" class="btn btn-danger btn-sm delete"><ion-icon name="trash"></ion-icon> Delete</a></td>
                         </tr>
                         <% } %>
                 </tbody>
