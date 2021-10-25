@@ -4,12 +4,6 @@ StudentName - Manya
 StudentId - 301176500
 Date - October 1,2021
 */
-/*
-Filename- homeStyle.css
-StudentName - Manya
-StudentId - 301176500
-Date - October 1,2021
-*/
 
 body {
     content: "";
@@ -73,7 +67,7 @@ nav{
 .contact{
     background-color: coral;
 }
-.login{
+.loginIcon{
     background-color:cadetblue;
 }
 .contactList{
@@ -85,7 +79,7 @@ nav{
 .services,
 .contact,
 .contactList,
-.login{
+.loginIcon{
     color: #fff;
     display: flex;
     justify-content: center;
@@ -100,7 +94,7 @@ nav{
 .services ion-icon,
 .contact ion-icon,
 .contactList ion-icon,
-.login ion-icon{
+.loginIcon ion-icon{
     font-size: 40px;
 }
 article{
@@ -126,7 +120,7 @@ article h2{
     font-family: 'Bebas Neue', cursive;
 }
 a:link{
-    text-decoration: none;
+	text-decoration:none;
 }
 table{
     width: 100%;

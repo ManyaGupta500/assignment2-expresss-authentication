@@ -7,14 +7,13 @@ Date - October 1,2021
 
 body {
     content: "";
-    
-    background: #040404 url("/images/bgPic.jpg") top right no-repeat;
+    position: fixed;
+    background: #040404 url("/assets/images/bgPic.jpg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
-    height: 110vh;
+    height: 100vh;
     width:1250px;
     z-index: -1;
     margin-left: 1.5cm;
@@ -22,13 +21,12 @@ body {
 .container{
     max-width:1250px;
     margin:0 auto;
-    height: 100vh;
 }
 nav{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 100px;
+    height: 40px;
     width:1250px;
     color: #fff;
 }
@@ -69,11 +67,19 @@ nav{
 .contact{
     background-color: coral;
 }
+.loginIcon{
+    background-color:cadetblue;
+}
+.contactList{
+    background-color:darksalmon;
+}
 .home,
 .about,
 .project,
 .services,
-.contact{
+.contact,
+.contactList,
+.loginIcon{
     color: #fff;
     display: flex;
     justify-content: center;
@@ -86,8 +92,10 @@ nav{
 .about ion-icon,
 .project ion-icon,
 .services ion-icon,
-.contact ion-icon{
-    font-size: 100px;
+.contact ion-icon,
+.contactList ion-icon,
+.loginIcon ion-icon{
+    font-size: 40px;
 }
 article{
     background-color: rgba(0,0,0,0.75);
@@ -96,11 +104,10 @@ article{
 	box-shadow: 5px 5px 5px 5px whitesmoke;
     width:1250px;
     opacity: 0.7;
-    height: 495px;
 }
 
 article h1{
-    color:yellow;
+    color:greenyellow;
     padding: 20px 20px;
     font-size: 40px;
     font-family: 'Caramel', cursive;
