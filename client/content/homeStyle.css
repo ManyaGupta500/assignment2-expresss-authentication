@@ -26,7 +26,7 @@ nav{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 80px;
+    height: 40px;
     width:1250px;
     color: #fff;
 }
@@ -67,15 +67,19 @@ nav{
 .contact{
     background-color: coral;
 }
-.login{
+.loginIcon{
     background-color:cadetblue;
+}
+.contactList{
+    background-color:darksalmon;
 }
 .home,
 .about,
 .project,
 .services,
 .contact,
-.login{
+.contactList,
+.loginIcon{
     color: #fff;
     display: flex;
     justify-content: center;
@@ -88,9 +92,10 @@ nav{
 .about ion-icon,
 .project ion-icon,
 .services ion-icon,
-.contact ion-icon
-.login ion-icon{
-    font-size: 800px;
+.contact ion-icon,
+.contactList ion-icon,
+.loginIcon ion-icon{
+    font-size: 40px;
 }
 article{
     background-color: rgba(0,0,0,0.75);

@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 100px;
+    height: 40px;
     color: #fff;
 }
 .userPic{
@@ -63,11 +63,19 @@ nav{
 .contact{
     background-color: coral;
 }
+.loginIcon{
+    background-color:cadetblue;
+}
+.contactList{
+    background-color:darksalmon;
+}
 .home,
 .about,
 .project,
 .services,
-.contact{
+.contact,
+.contactList,
+.loginIcon{
     color: #fff;
     display: flex;
     justify-content: center;
@@ -80,8 +88,10 @@ nav{
 .about ion-icon,
 .project ion-icon,
 .services ion-icon,
-.contact ion-icon{
-    font-size: 100px;
+.contact ion-icon,
+.contactList ion-icon,
+.loginIcon ion-icon{
+    font-size: 60px;
 }
 a{
 	text-decoration:none;
@@ -97,8 +107,8 @@ a{
     border-radius: 10px;
 	border: 4px solid #333333;
 	box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
-    width: 300px;
-    height: 80px;
+    width: 180px;
+    height: 60px;
 }
 legend{
     font-family: Trebuchet MS, Helvetica, sans-serif;
@@ -165,17 +175,18 @@ textarea{
 	transform: scale(1.50);
 	transition: 0.2s transform;
 }
-.callIcon{
-    text-align: right;
-    padding-left: 25px;
-    padding-bottom: 15px;
-    font-size: 70px;
-}
 .callData{
     text-align: left;
-    padding-bottom:10px;
+    padding-bottom:20px;
     font-size: 40px;
 }
 .contactInfo{
     margin-left: 430px;
+}
+p{
+    color:white;
+    font-size:25px;
+}
+.register{
+    color:darkturquoise;
 }
