@@ -7,16 +7,13 @@ Date - October 1,2021
 
 body {
     content: "";
-    position: fixed;
     background: #040404 url("/assets/images/bgPic.jpg") top right no-repeat;
     background-size: cover;
-    left: 0;
-    right: 0;
+    margin-left: 1cm;
     top: 0;
-    height: 100vh;
+    height: 120vh;
     width:1250px;
     z-index: -1;
-    margin-left: 1.5cm;
 }
 .container{
     max-width:1250px;
