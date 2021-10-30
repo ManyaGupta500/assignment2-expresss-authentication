@@ -1,13 +1,13 @@
 /*
 Filename- contactListStyle.css
-StudentName - Manya
-StudentId - 301176500
-Date - October 24,2021
+StudentName - Piyush
+StudentId - 301169193
+Date - October 30,2021
 */
 
 body{
     content: "";
-    background: #040404 url("/assets/images/bgPic.jpg") top right no-repeat;
+    background:#77a73e;
     background-size: cover;
     margin-left: 60px;
     top: 0;

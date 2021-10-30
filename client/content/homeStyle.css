@@ -1,14 +1,14 @@
 /*
 Filename- homeStyle.css
-StudentName - Manya
-StudentId - 301176500
-Date - October 24,2021
+StudentName - Piyush
+StudentId - 301169193
+Date - October 30,2021
 */
 
 body {
     content: "";
     position: fixed;
-    background: #040404 url("/assets/images/bgPic.jpg") top right no-repeat;
+    background:#77a73e;
     background-size: cover;
     left: 0;
     right: 0;
